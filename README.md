@@ -42,7 +42,7 @@ url='mongodb+srv://<username>:<password>@<cluster-address>/'
  ```
 Replace it with your own MongoDB connection string if needed.
 
-4. Make sure your MongoDB database has a collection called EMAILS with documents like:
+3. Make sure your MongoDB database has a collection called EMAILS with documents like:
 ```
 { "email": "example@example.com", "password": "yourpassword" }
 
