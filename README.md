@@ -28,23 +28,23 @@ This is a simple Python project that checks if a user's email is valid and then 
 
 ## How to Use
 
-1.Install pymongo if you don't have it:
+1. Install pymongo if you don't have it:
 ```
 pip install pymongo
 
 ```
 
-2.Make sure your MongoDB database has a collection called EMAILS with documents like:
+2. Make sure your MongoDB database has a collection called EMAILS with documents like:
 ```
 { "email": "example@example.com", "password": "yourpassword" }
 
 ```
-3.Run the script:
+3. Run the script:
 ```
 python User_validation_pro.py
 
 ```
-4.Follow the instructions in the terminal.
+4. Follow the instructions in the terminal.
 
 ## Note
 
