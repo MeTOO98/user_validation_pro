@@ -34,17 +34,25 @@ pip install pymongo
 
 ```
 
-2. Make sure your MongoDB database has a collection called EMAILS with documents like:
+2. Add MongoDB Connection
+   The script already connects using this format:
+   ```
+   url='mongodb+srv://<username>:<password>@<cluster-address>/'
+
+   ```
+   Replace it with your own MongoDB connection string if needed.
+
+3. Make sure your MongoDB database has a collection called EMAILS with documents like:
 ```
 { "email": "example@example.com", "password": "yourpassword" }
 
 ```
-3. Run the script:
+4. Run the script:
 ```
 python User_validation_pro.py
 
 ```
-4. Follow the instructions in the terminal.
+5. Follow the instructions in the terminal.
 
 ## Note
 
