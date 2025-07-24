@@ -17,13 +17,13 @@ This is a simple Python project that checks if a user's email is valid and then 
 
 ## Requirements
 
-+ *Python 3*
++ **Python 3**
 
-+ *pymongo* library
++ **pymongo** library
 
 + A MongoDB database with a collection that has emails and passwords.
 
-+ Function *Email_validation_1* inside Validation module.
++ Function **Email_validation_1** inside Validation module.
 
 
 ## How to Use
