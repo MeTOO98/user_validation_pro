@@ -35,14 +35,14 @@ pip install pymongo
 ```
 
 2. Add MongoDB Connection
-   The script already connects using this format:
-   ```
-   url='mongodb+srv://<username>:<password>@<cluster-address>/'
+The script already connects using this format:
+```
+url='mongodb+srv://<username>:<password>@<cluster-address>/'
 
-   ```
-   Replace it with your own MongoDB connection string if needed.
+ ```
+Replace it with your own MongoDB connection string if needed.
 
-3. Make sure your MongoDB database has a collection called EMAILS with documents like:
+4. Make sure your MongoDB database has a collection called EMAILS with documents like:
 ```
 { "email": "example@example.com", "password": "yourpassword" }
 
