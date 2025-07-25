@@ -2,7 +2,7 @@ from pymongo import MongoClient
 from Validation import email_validation_1
 
 
-url='mongodb+srv://MohamedElMetwally:012345678910@cluster0.7kj70bb.mongodb.net/'
+url='mongodb+srv://MohamedElMetwally:<password>@cluster0.7kj70bb.mongodb.net/'
 client=MongoClient(url)
 db=client['sample_mflix']
 collection =db.get_collection('EMAILS')
